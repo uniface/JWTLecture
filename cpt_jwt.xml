@@ -1,0 +1,814 @@
+﻿<?xml version='1.0'  encoding="UTF-8"?>
+<!-- Created by Uniface - (C) Uniface B.V. All rights reserved -->
+<!DOCTYPE UNIFACE PUBLIC "UNIFACE.DTD" "UNIFACE.DTD">
+<UNIFACE release="10.2" repversion="5" xmlengine="2.0">
+<TABLE>
+<DSC name="UFORM" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="UTIMESTAMP" seqno="1" type="E" level="2" pack="0" scale="0" length="15"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="ULABEL" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" mandatory="yes" idxnum="1" idxsnr="101" />
+<FLD name="FTYP" seqno="3" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DATA_ACCESS" seqno="4" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="2" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="FHEAD" seqno="8" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOLOR" seqno="9" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVPOS" seqno="10" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHPOS" seqno="11" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WVSIZ" seqno="12" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="WHSIZ" seqno="13" type="S" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="CLRSCRN" seqno="14" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UBORDER" seqno="15" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBIN" seqno="16" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="RIBOT" seqno="17" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="MOVABLE" seqno="18" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOINVERSE" seqno="19" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBRIGHT" seqno="20" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOUNLINE" seqno="21" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="VIDEOBLINK" seqno="22" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPANEL" seqno="23" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="POSPANEL" seqno="24" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPULL" seqno="25" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="HIDESTACK" seqno="26" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="27" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UINHERIT" seqno="28" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="LIBRAR" seqno="29" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTRANSACT" seqno="30" type="S" level="2" pack="0" scale="0" length="8"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPROC_CONTAINER_MODE" seqno="31" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UPURPOSE" seqno="32" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTAG" seqno="33" type="S" level="2" pack="13" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_ICON" seqno="34" type="I" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="35" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL2" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="USCRIPT" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="INIT" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="CLEAR" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="RETRIEVE" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="RECORD" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="STORE" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="DELET" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ACCEPT" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="QUIT" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="INTKEY" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="SPRINT" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="EPRINT" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="ASYNC" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="FRLF" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="FRGF" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="SFUNC" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="GETSTATE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="SETSTATE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="UCTRIGGERS" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="FORMPIC" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="TITLE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="WINPROP" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="USCONTAINED" seqno="64" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="ATTACHED" seqno="65" type="B" level="2" pack="128" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="USPLITPROP" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="USTATEMANAGEDBY" seqno="68" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="HTMLSKELETON" seqno="69" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="UTIMESTAMP">2017-09-20T07:16:36.00</DAT>
+<DAT name="ULABEL">JWT</DAT>
+<DAT name="FTYP">K</DAT>
+<DAT name="DATA_ACCESS">N</DAT>
+<DAT name="UKVERSION">2</DAT>
+<DAT name="UMVERSION">3</DAT>
+<DAT name="UDESCR" xml:space='preserve'>JSON Web Tokens</DAT>
+<DAT name="WVPOS">1</DAT>
+<DAT name="WHPOS">1</DAT>
+<DAT name="WVSIZ">10</DAT>
+<DAT name="WHSIZ">40</DAT>
+<DAT name="CLRSCRN">N</DAT>
+<DAT name="UBORDER">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="UTRANSACT">7</DAT>
+<DAT name="UDECLARATIONS" xml:space='preserve'>#define $triggerAbbr=DEFN
+#Comment ----------------------------------------------
+#Comment start_of_references
+#ifdefined TEMPLATENAME
+#info symbol TEMPLATENAME is already or also defined as a global or local constant
+#endif
+#define TEMPLATENAME=
+#Comment 
+
+#Comment end_of_references
+
+
+#Comment ----------------------------------------------
+#Comment start_of_mappings
+#Comment end_of_mappings
+
+
+#Comment ----------------------------------------------
+#Comment start_of_symbols
+#Comment end_of_symbols
+
+
+#Comment ----------------------------------------------
+#undefine $triggerAbbr
+
+
+
+#define $triggerAbbr=DEFN
+#define DQ %%"%%%
+#undefine $triggerAbbr
+</DAT>
+<DAT name="USCRIPT" xml:space='preserve'>#startdefine
+#define $triggerAbbr=LPMX
+entry DEBUG_PRINT
+	params
+		string message : IN
+	endparams
+	
+	putmess "DEBUG : '%%message'"
+end
+
+entry HTMLOUT
+	params
+		string message : IN
+	endparams
+		
+		return "&lt;html&gt;&lt;body&gt;%%message&lt;/body&gt;&lt;/html&gt;"
+end
+	
+	entry SecondsSince
+		params
+			datetime inputDate : IN
+		endparams
+		
+		variables
+			numeric tm_sec
+			numeric tm_year
+			numeric tm_min
+			numeric tm_hour
+			numeric tm_yday
+			numeric outputValue
+		endvariables
+		
+		tm_sec = inputDate[S]
+		tm_min = inputDate[M]
+		tm_hour = inputDate[H]
+		tm_yday = inputDate[D]
+		tm_year = inputDate[Y]
+		
+		
+		outputValue = tm_sec + tm_min*60 + tm_hour*3600 + tm_yday*86400 + (tm_year-70)*31536000 + ((tm_year-69)/4)*86400 - ((tm_year-1)/100)*86400 + ((tm_year+299)/400)*86400
+		return outputValue
+	end
+
+#enddefine
+
+
+
+#startdefine
+#define $triggerAbbr=OPER
+operation Login
+public web
+	
+	params
+		string username        : IN
+		string password        : IN
+		string output_token    : INOUT
+	endparams
+	
+	
+	if (username = "sample" &amp; password = "123123")
+		activate $instancename.create("uniface.com","Sample JWT","",$datim + 5d, "", "company=Uniface USA, LLC", "T", output_token)
+		activate $instancename.AddToHeaders(output_token)
+		activate $instancename.Authorize()
+		$webinfo("OUTPUT") = output_token
+		return (1)
+	endif        
+	
+	$webinfo("OUTPUT") = HTMLOUT( "Invalid call")
+	
+end
+
+
+operation Authorize
+public web
+	;
+	; Check if the Authorization header 
+	; if Not found check for token parameter
+	; else FAIL.
+	;
+	
+	variables
+		string RequestHeaders, AuthorizationHeader
+		string Authorization
+		numeric AuthorizationPos, startpos    
+		numeric vStatus
+		string vBearer, tokenParam, vItem
+		string authorizationTag
+		string tokenPresent, extra
+		string requestparameters
+	endvariables
+	
+	authorizationTag = "Authorization: "     
+	
+	RequestHeaders = $replace( $webinfo("HTTPREQUESTHEADERS"), 1, "%%^", "&uSEP;")
+	RequestParameters = $webinfo("HTTPREQUESTPARAMS")
+	
+	forlist vitem in RequestHeaders
+		if ($scan(vItem, authorizationTag) &gt; 0)
+			AuthorizationHeader = vItem
+			call DEBUG_PRINT (" vitem='%%vItem'")
+		endif
+	endfor
+	
+	AuthorizationPos = $scan(AuthorizationHeader,authorizationTag)
+	startpos = AuthorizationPos + $length(authorizationtag) + 1
+	
+	call DEBUG_PRINT("Request Headers = '%%RequestHeaders' AuthorizationHeader='%%AuthorizationHeader' AuthorizationPos=%%AuthorizationPos startpos=%%startpos")
+	
+	getitem/id tokenPresent, $webinfo("HTTPREQUESTPARAMS"), "token"
+	call DEBUG_PRINT("Token = '%%tokenpresent' '%%RequestParameters'")
+	
+	if ($length(AuthorizationHeader) &gt; 0 &amp; AuthorizationPos &gt; 0)        
+		vStatus = $split (AuthorizationHeader, startpos, " ", vBearer, tokenParam )
+		call DEBUG_PRINT("vStatus = %%vStatus - vBearer = '%%vBearer' tokenParam = '%%tokenParam'")
+		if (vBearer != "Authorization: Bearer")        
+			$webinfo("STATUS") = "401"
+			$webinfo("OUTPUT") = HTMLOUT('Format is Authorization: Bearer [token]')
+			return -1
+		endif        
+	elseif (tokenPresent != "")
+		tokenParam = tokenPresent
+	else
+		$webinfo("STATUS") = "401"
+		$webinfo("OUTPUT") = HTMLOUT('No Authorization header was found or token not present.')
+		return -1    
+	endif
+	
+	
+	activate $instancename.CheckExpiration( tokenParam )
+	
+end
+
+operation decodeJWT
+public web
+	params
+		string JWT : IN
+		string SECRET_KEY : IN
+		string HEADER : INOUT
+		string PAYLOAD : INOUT
+		string SIGNATURE : INOUT
+		boolean verified : INOUT
+	endparams
+	
+	variables
+		string JWTHeader
+		string JWTPayload
+		string JWTSignature
+		string JWTSignatureDecode
+		string JWTWorking
+		
+		string JWTHeaderbf64
+		string JWTPayloadbf64
+		
+		struct structHEADER
+		struct structPAYLOAD
+	endvariables
+	
+	
+	JWTWorking = $replace( JWT, 0, ".", "&uSEP;", -1)
+	
+	getitem JWTHeader, JWTWorking, 1
+	getitem JWTPayload, JWTWorking, 2
+	getitem JWTSignature, JWTWorking, 3
+	
+	if (JWTHeader = "" | JWTPayload = "" | JWTSignature = "")
+		return (-1)
+	endif
+	
+	JWTHeaderbf64 = $replace( $replace( $decode("BASE64", JWTHeader), 1, "{A", "{"), 1, "{C", "}")
+	JWTPayloadbf64 = $replace( $replace( $decode("BASE64", JWTPayload ), 1, "{A", "{"), 1, "{C", "}")
+	
+	
+	JSONtoStruct structHEADER, JWTHeaderbf64
+	JSONtoStruct structPayload, JWTPayloadbf64
+	
+	structToJSON /whitespace HEADER, structHEADER
+	structTOJSON /whitespace PAYLOAD, structPAYLOAD
+	
+	if (secret_key = "")
+		verified = "F"
+		return (1)
+	endif
+	
+	JWTSignatureDecode = $encode( "BASE64", $encode("HMAC_SHA256", "%%JWTHEADER%%%.%%JWTPayload",secret_key ) )
+	
+	SIGNATURE = JWTSignatureDecode
+	
+	verified = "T"
+	
+	if (JWTSignatureDecode != JWTSignature)
+		verified = "F"
+	endif
+	
+end
+
+
+operation CheckExpiration
+	params
+		string JWT : IN
+	endparams
+	
+	variables
+		string JWTHeader
+		string JWTPayload
+		string JWTSignature
+		string JWTSignatureDecode
+		string JWTWorking
+		
+		string JWTHeaderbf64
+		string JWTPayloadbf64
+		
+		struct JWTPayloadStruct
+		struct JWTHeaderStruct
+		numeric NotBefore
+		numeric Expired
+		
+		datetime NotBeforeDate
+		datetime ExpiredDate
+		datetime IssuedDate
+		
+		numeric  NotBeforeFuzz
+		numeric ExpiredFuzz
+		
+		handle time
+		
+		string secret_key
+	endvariables
+	
+	NotBeforeDate = ""
+	ExpiredDate = ""
+	IssuedDate = ""
+	
+	newinstance "TIMEUTIL", time
+	
+	secret_key  = $logical("SECRET_KEY")
+	if (secret_key = "")
+		secret_key = "secret"
+		putmess "SECRET_KEY is not set. Defaulting to internal key."
+	endif
+	
+	if (JWT = "")
+		$webinfo("STATUS") = "400"
+		$webinfo("OUTPUT") = HTMLOUT("Empty JWT Token")
+		return (-1)
+	endif
+	
+	JWTWorking = $replace( JWT, 0, ".", "&uSEP;", -1)
+	
+	getitem JWTHeader, JWTWorking, 1
+	getitem JWTPayload, JWTWorking, 2
+	getitem JWTSignature, JWTWorking, 3
+	
+	if (JWTHeader = "" | JWTPayload = "" | JWTSignature = "")
+		$webinfo("STATUS") = "400"
+		$webinfo("OUTPUT") = HTMLOUT("Invalid JWT Token")
+		return (-1)
+	endif
+	
+	JWTHeaderbf64 = $replace( $replace( $decode("BASE64", JWTHeader), 1, "{A", "{"), 1, "{C", "}")
+	JWTPayloadbf64 = $replace( $replace( $decode("BASE64", JWTPayload ), 1, "{A", "{"), 1, "{C", "}")
+	
+
+	JSONtoStruct JWTHeaderStruct, JWTHeaderbf64
+
+	;
+	; Only allow the HS256 algoritm and definately not "none"
+	;
+
+	if ((JWTHeaderStruct-&gt;alg) != "HS256")
+		$webinfo("STATUS") = "400"
+		$webinfo("OUTPUT") = HTMLOUT("Fraudulent JWT Token")
+		$webinfo("STATUSREASON") = HTMLOUT("Fraudulent JWT Token")
+		return (-1)
+
+	endif
+	
+	call DEBUG_PRINT("JWTHeader = '%%JWTHeaderbf64'")
+	call DEBUG_PRINT("JWTPayload = '%%JWTPayloadbf64'")
+	
+	JWTSignatureDecode = $encode( "BASE64", $encode("HMAC_SHA256", "%%JWTHEADER%%%.%%JWTPayload",secret_key ) )
+	
+	call DEBUG_PRINT( "Signature Decode '%%JWTSignatureDecode' != '%%JWTSignature'" )    
+	
+	if (JWTSignatureDecode != JWTSignature)
+		$webinfo("STATUS") = "400"
+		$webinfo("OUTPUT") = HTMLOUT("Fraudulent JWT Token")
+		$webinfo("STATUSREASON") = HTMLOUT("Fraudulent JWT Token")
+		return (-1)
+	endif
+	
+	JSONToStruct JWTPayloadStruct, JWTPayloadbf64
+	call DEBUG_PRINT("Struct = '%%(JWTPayloadStruct-&gt;$dbgString)'")
+	
+	ExpiredFuzz = $logical("EXPIRED_FUZZ")
+	
+	if (ExpiredFuzz = "")
+		ExpiredFuzz = 10
+		putmess "EXPIRED_FUZZ not set defaulting to 10 minutes (minutes)."
+	endif
+	
+	NotBeforeFuzz = $logical("NOTBEFORE_FUZZ")
+	
+	if (NotBeforeFuzz = "")
+		NotBeforeFuzz = 30
+		putmess "NOTBEFORE_FUZZ no set defaulting to 30 seconds (seconds)."
+	endif
+	
+	call DEBUG_PRINT("NotBefore = '%%(JWTPayloadStruct-&gt;nbf)' Expired = '%%(JWTPayloadStruct-&gt;exp)' IssuedAt='%%(JWTPayloadStruct-&gt;iat)'")
+	
+	
+	;
+	; Show Issued At if Present
+	; 
+	
+	if ( JWTPayloadStruct-&gt;iat != 0)
+		time-&gt;toDateTime( (JWTPayloadStruct-&gt;iat), IssuedDate)
+		call DEBUG_PRINT("Issued epoch = '%%(JWTPayloadStruct-&gt;iat)' Issued at '%%IssuedDate'")
+	endif
+	
+	;
+	; Check Not Before
+	;
+	if (JWTPayloadStruct-&gt;nbf) != 0
+	time-&gt;toDateTime( (JWTPayloadStruct-&gt;nbf), NotBeforeDate )
+	call DEBUG_PRINT("Not Before Epoch = '%%(JWTPayloadStruct-&gt;nbf)' toDate = '%%NotBeforeDate'")
+	if (NotBeforeDate &gt; $datim + NotBeforeFuzz*1s)
+		$webinfo("STATUS") = "400"
+		$webinfo("OUTPUT") = HTMLOUT("JWT cannot be used before the Not Before (nbf) time")
+		return (-1)    
+	endif
+endif
+
+;
+; Check Expiration
+;
+if (JWTPayloadStruct-&gt;exp) != 0
+
+	time-&gt;toDateTime( (JWTPayloadStruct-&gt;exp), ExpiredDate )
+	call DEBUG_PRINT("Expired Epoch = '%%(JWTPayloadStruct-&gt;exp)' toDate = '%%ExpiredDate'")
+
+	if (ExpiredDate &lt; $datim + ExpiredFuzz*1n)
+		call DEBUG_PRINT("Token expired '%%ExpiredDate' &lt; '%%$datim + ExpiredFuzz'")
+		$webinfo("STATUS") = "400"
+		$webinfo("OUTPUT") = HTMLOUT("JWT has expired")
+		return (-1)    
+	endif
+endif
+
+end
+
+operation AddToHeaders
+	params
+		string JWT : IN
+	endparams
+	
+;
+;	Authorization: Bearer BEARER_TOKEN  
+;	$webinfo("HTTPRESPONSEHEADERS")="Authorization: Bearer %%JWT%%^Cache-Control: no-cache "
+;
+
+	$webinfo("HTTPREQUESTHEADERS") = "Authorization: Bearer %%JWT%%^Cache-Control: no-cache "
+	
+end
+
+
+operation Create
+	
+	params
+		string issuer             : IN
+		string subject            : IN
+		string audience           : IN
+		datetime expiration       : IN
+		datetime notbefore        : IN
+		string other_params       : IN
+		boolean include_IssuedAt  : IN
+		raw  output_Token         : OUT
+	endparams
+	
+	#define PERIOD .
+	
+	variables
+		string    		headerRaw
+		struct     		headerStruct
+		string         	headerBase64
+		string     		payloadRaw
+		struct     		payloadStruct
+		string         	payloadBase64
+		raw        		tokenRaw
+		string        	tokenBase64
+		lineardatetime  timebase
+		numeric     	timecalc
+		string        	vStructName, vStructValue 
+		String        	secret_key
+		raw         	signature
+		handle        	timeu
+	endvariables
+	
+	; 
+	;"{
+	;  "alg": "HS256",
+	;  "typ": "JWT"
+	;}"
+	
+	secret_key  = $logical("SECRET_KEY")
+	if (secret_key = "")
+		secret_key = "secret"
+		putmess "SECRET_KEY is not set. Defaulting to internal key."
+	endif
+	
+	headerStruct = $newstruct
+	headerStruct-&gt;alg = "HS256"
+	headerStruct-&gt;typ = "JWT"
+	
+	structtoJSON /bmp headerRaw, headerStruct
+	headerBase64 = $encode("BASE64", headerRaw)
+	
+	newinstance "TIMEUTIL", timeu
+	
+	; Issuer (iss) - identifies principal that issued the JWT;
+	; Subject (sub) - identifies the subject of the JWT;
+	; Audience (aud) - The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the aud claim when this claim is present, then the JWT MUST be rejected.
+	; Expiration time (exp) - The "exp" (expiration time) claim identifies the expiration time on or after which the JWT MUST NOT be accepted for processing.
+	; Not before (nbf) - Similarly, the not-before time claim identifies the time on which the JWT will start to be accepted for processing.
+	; Issued at (iat) - The "iat" (issued at) claim identifies the time at which the JWT was issued.
+	
+	payloadStruct = $newstruct
+	if (issuer != "") payloadStruct-&gt;iss = issuer
+	if (subject != "") payloadStruct-&gt;sub = subject
+	if (audience != "") payloadStruct-&gt;aud = audience
+	
+	if (expiration != "") payloadStruct-&gt;exp = (timeu-&gt;FromDateTime(expiration))
+	
+	if (notbefore != "") payloadStruct-&gt;nbf = (timeu-&gt;FromDateTime(notbefore))
+	
+	
+	if (other_params != "")
+		forlist/id vStructName, vStructValue in other_params
+			payloadStruct-&gt;"%%vStructName" = vStructValue 
+		endfor
+	endif
+
+	payloadStruct-&gt;jti = $uuid
+
+	if (include_IssuedAt)    payloadStruct-&gt;iat = (timeu-&gt;FromDateTime($datim))
+
+	structtoJSON/bmp payloadRaw, payloadStruct
+	payloadBase64 = $encode("BASE64", payloadRaw)    
+	signature = "%%headerBase64%%%&lt;PERIOD&gt;%%payloadBase64"
+
+	tokenRaw = $encode("HMAC_SHA256", signature, secret_key )
+	tokenBase64 = $encode("BASE64", tokenRaw)
+
+	output_Token = "%%signature%%%&lt;PERIOD&gt;%%tokenbase64"
+
+
+end
+#enddefine
+</DAT>
+<DAT name="FORMPIC" xml:space='preserve'>
+ &uFRM;TYP=E&uSEP;NAM=DUMMY.DUMMY&uSEP;WID=2&uSEP;HEI=1&uSEP;HOC=2&uSEP;VOC=1&uFRM;</DAT>
+<DAT name="HTMLSKELETON" xml:space='preserve'>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;&lt;head&gt;
+&lt;meta name="Default" content="Uniface 9"&gt;
+&lt;link rel="stylesheet" type="text/css" href="../css/udsp.css"&gt;&lt;title&gt;title&lt;/title&gt;
+
+&lt;/head&gt;
+
+ &lt;body&gt;
+&lt;/body&gt;&lt;/html&gt;</DAT>
+</OCC>
+</TABLE>
+<TABLE>
+<DSC name="UXGROUP" model="DICT" system="S" pseudo ="73" level="1" noupdate="0"
+ rbk="0" ffsql="0" transnr="0" segsize="0" ufocc="0" charset=".U">
+<FLD name="ULABEL" seqno="1" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="101,3" />
+<FLD name="UBASE" seqno="2" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="102,2" />
+<FLD name="UFORM" seqno="3" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="2" ufocc="0" mandatory="yes" idxnum="1,2" idxsnr="103,1" />
+<FLD name="UPARENT" seqno="4" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UKVERSION" seqno="5" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="3" idxsnr="1" />
+<FLD name="UMVERSION" seqno="6" type="N" level="2" pack="10" scale="0" length="2"
+ pointer="0" inum="1" ufocc="0" idxnum="4" idxsnr="1" />
+<FLD name="UDESCR" seqno="7" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_BORD" seqno="8" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INDB" seqno="9" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="DB_ACCESS" seqno="10" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_DBMS" seqno="11" type="S" level="2" pack="0" scale="0" length="3"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_UPD" seqno="12" type="S" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MINR" seqno="13" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_MAXR" seqno="14" type="N" level="2" pack="0" scale="0" length="6"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="U_INT" seqno="15" type="S" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="TEMPLATENAME" seqno="16" type="S" level="2" pack="0" scale="0" length="60"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UINHERIT" seqno="17" type="B" level="2" pack="0" scale="0" length="1"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UTAG" seqno="18" type="S" level="2" pack="13" scale="0" length="32"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_ICON" seqno="19" type="I" level="2" pack="0" scale="0" length="128"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UALT_NAME" seqno="20" type="S" level="2" pack="13" scale="0" length="64"
+ pointer="0" inum="0" ufocc="0" />
+<FLD name="UCOMMENT" seqno="21" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",0,0,0,,1,0,1,\1D,0,0,0,," />
+<FLD name="UPALETTE_PURPOSE" seqno="22" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C0,0,0,0,,0,0,0,," />
+<FLD name="TPLACTUAL" seqno="23" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C1,0,0,0,,0,0,0,," />
+<FLD name="UDECLARATIONS" seqno="24" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C2,0,0,0,,0,0,0,," />
+<FLD name="UCOLL_SCRIPT" seqno="25" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C3,0,0,0,,0,0,0,," />
+<FLD name="UOCC_SCRIPT" seqno="26" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C4,0,0,0,,0,0,0,," />
+<FLD name="GETOCC" seqno="27" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C5,0,0,0,,0,0,0,," />
+<FLD name="PUTOCC" seqno="28" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C6,0,0,0,,0,0,0,," />
+<FLD name="DELOCC" seqno="29" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C7,0,0,0,,0,0,0,," />
+<FLD name="LCK" seqno="30" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C8,0,0,0,,0,0,0,," />
+<FLD name="UNLOCK" seqno="31" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\C9,0,0,0,,0,0,0,," />
+<FLD name="GETSEGM" seqno="32" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CA,0,0,0,,0,0,0,," />
+<FLD name="ADDOCC" seqno="33" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CB,0,0,0,,0,0,0,," />
+<FLD name="DELOCCR" seqno="34" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CC,0,0,0,,0,0,0,," />
+<FLD name="ENDMOD" seqno="35" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CD,0,0,0,,0,0,0,," />
+<FLD name="DOC" seqno="36" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CE,0,0,0,,0,0,0,," />
+<FLD name="DETAIL" seqno="37" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\CF,0,0,0,,0,0,0,," />
+<FLD name="CREOCC" seqno="38" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D0,0,0,0,,0,0,0,," />
+<FLD name="MENU" seqno="39" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D1,0,0,0,,0,0,0,," />
+<FLD name="FINDOCC" seqno="40" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D2,0,0,0,,0,0,0,," />
+<FLD name="ERROR" seqno="41" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D3,0,0,0,,0,0,0,," />
+<FLD name="GENERAL" seqno="42" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D4,0,0,0,,0,0,0,," />
+<FLD name="BREAK" seqno="43" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D5,0,0,0,,0,0,0,," />
+<FLD name="VLDE" seqno="44" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D6,0,0,0,,0,0,0,," />
+<FLD name="VLDK" seqno="45" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D7,0,0,0,,0,0,0,," />
+<FLD name="PRLO" seqno="46" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D8,0,0,0,,0,0,0,," />
+<FLD name="PSLO" seqno="47" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\D9,0,0,0,,0,0,0,," />
+<FLD name="PRSO" seqno="48" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DA,0,0,0,,0,0,0,," />
+<FLD name="PSSO" seqno="49" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DB,0,0,0,,0,0,0,," />
+<FLD name="UEOOPERS" seqno="50" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DC,0,0,0,,0,0,0,," />
+<FLD name="UECOPERS" seqno="51" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DD,0,0,0,,0,0,0,," />
+<FLD name="UEOTRIGGERS" seqno="52" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DE,0,0,0,,0,0,0,," />
+<FLD name="UECTRIGGERS" seqno="53" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\DF,0,0,0,,0,0,0,," />
+<FLD name="FLIST" seqno="54" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E0,0,0,0,,0,0,0,," />
+<FLD name="UPOPUP" seqno="55" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E1,0,0,0,,0,0,0,," />
+<FLD name="U_OBJSVC" seqno="56" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E2,0,0,0,,0,0,0,," />
+<FLD name="U_GLAB" seqno="57" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E3,0,0,0,,0,0,0,," />
+<FLD name="UEOINTERFACE" seqno="58" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E4,0,0,0,,0,0,0,," />
+<FLD name="UECINTERFACE" seqno="59" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E5,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETTYPE" seqno="60" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E6,0,0,0,,0,0,0,," />
+<FLD name="FRM_WIDGETPROPS" seqno="61" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E7,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETTYPE" seqno="62" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E8,0,0,0,,0,0,0,," />
+<FLD name="DSP_WIDGETPROPS" seqno="63" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\E9,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETTYPE" seqno="64" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EA,0,0,0,,0,0,0,," />
+<FLD name="USP_WIDGETPROPS" seqno="65" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EB,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETTYPE" seqno="66" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\EC,0,0,0,,0,0,0,," />
+<FLD name="HFM_WIDGETPROPS" seqno="67" type="S" level="2" pack="141" scale="0" length="0"
+ pointer="0" inum="0" ufocc="0" varinfo=",1,0,2,\1F\ED,0,0,0,,0,0,0,," />
+</DSC>
+<OCC>
+<DAT name="ULABEL">DUMMY</DAT>
+<DAT name="UBASE">DUMMY</DAT>
+<DAT name="UFORM">JWT</DAT>
+<DAT name="UKVERSION">2</DAT>
+<DAT name="UMVERSION">4</DAT>
+<DAT name="U_BORD">N</DAT>
+<DAT name="UINHERIT">F</DAT>
+<DAT name="USP_WIDGETPROPS" xml:space='preserve'>U_ATLEASTONE=1&uSEP;U_STARTOCC=1&uSEP;U_MAXOCC=</DAT>
+</OCC>
+</TABLE>
+</UNIFACE>
